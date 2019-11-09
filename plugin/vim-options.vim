@@ -21,7 +21,7 @@ set backspace=2 " Make backspace work like most other programs
 
 
 " Set clipboard for mac
-set clipboard=unamedplus
+set clipboard=unnamedplus
 
 " Custom status line
 set statusline=
