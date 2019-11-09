@@ -20,6 +20,9 @@ set sessionoptions+=globals " Append global variables to the default session opt
 set backspace=2 " Make backspace work like most other programs
 
 
+" Set clipboard for mac
+set clipboard=unamedplus
+
 " Custom status line
 set statusline=
 set statusline+=%1*\ %02c\                    " Color
