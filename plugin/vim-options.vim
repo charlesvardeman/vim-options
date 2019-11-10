@@ -41,6 +41,11 @@ syntax enable
 colorscheme nord " Set the colorscheme
 set background=dark " Use dark colorscheme
 
+" Setup liteline
+let g:lightline = {
+      \ 'colorscheme': 'nord',
+      \ }
+
 " Set vimdiff colors, make it easier to read
 highlight DiffAdd    cterm=BOLD ctermfg=NONE ctermbg=22
 highlight DiffDelete cterm=BOLD ctermfg=NONE ctermbg=52
