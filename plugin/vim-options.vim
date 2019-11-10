@@ -24,12 +24,12 @@ set backspace=2 " Make backspace work like most other programs
 set clipboard=unnamedplus
 
 " Custom status line
-set statusline=
-set statusline+=%1*\ %02c\                    " Color
-set statusline+=%2*\ »                        " RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
-set statusline+=%3*\ %<%F\                    " File+path
-set statusline+=%2*\«                         " LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
-set statusline+=%2*\ %=\ %l/%L\ (%02p%%)\     " Rownumber/total (%)
+"set statusline=
+"set statusline+=%1*\ %02c\                    " Color
+"set statusline+=%2*\ »                        " RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+"set statusline+=%3*\ %<%F\                    " File+path
+"set statusline+=%2*\«                         " LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+"set statusline+=%2*\ %=\ %l/%L\ (%02p%%)\     " Rownumber/total (%)
 
 " Set spacing of filetypes
 au FileType vim,ledger,yaml,html,htmldjango setlocal tabstop=2
